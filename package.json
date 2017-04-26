@@ -1,0 +1,14 @@
+{
+  "name": "elm-prague-dojo-game-of-life",
+  "scripts": {
+    "test": "elm-test",
+    "test:clear": "clear && elm-test",
+    "test:watch": "nodemon --exec 'clear;elm-test' --watch src --watch tests -e elm"
+  },
+  "devDependencies": {
+    "elm-test": "^0.18.2",
+    "nodemon": "^1.11.0"
+  },
+  "version": "1.0.0",
+  "license": "MPL-2.0"
+}
